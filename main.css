@@ -1,0 +1,42 @@
+body {
+    background: #222;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    padding: 1rem;
+}
+
+h1,
+h2 {
+    font-weight: 100;
+    margin: 0.4rem;
+    letter-spacing: 0.1rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+@media(max-width: 800px) {
+    h1 {
+        font-size: 3rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }   
+
+}
+
+.txt {
+    border-right: 3px solid #aaa;
+}
